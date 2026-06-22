@@ -1,8 +1,14 @@
 .face{
     width: 400px;
     height: 400px;
-    background-color: rgb(218, 195, 22);
+    background-color: rgb(195, 180, 19);
     border-radius: 50%;
+    border: 5px solid black;
+    box-shadow: 0 0 20px black;
+}
+.face:hover{
+    box-shadow: 0 0 50px black;
+    transition: box-shadow 0.10s;
 }
 .mouth{
     width: 200px;
